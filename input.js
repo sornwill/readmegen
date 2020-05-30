@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 
 // Questions for info for README
-function input(){
-    return inquirer.prompt([
+function userInputs(){
+inquirer.prompt([
         {
             type:"input",
             message:"Enter Title :",
@@ -48,7 +48,8 @@ function input(){
             message:"What's your GitHub Username?",
             name:"username",
         }
-    ])
+    ]);
+
 };
 
-module.exports = input;
+module.exports = userInputs;

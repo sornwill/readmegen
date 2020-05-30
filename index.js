@@ -1,21 +1,25 @@
 // Nodes for reading and writing files
 let fs = require("fs");
-let userInputs = require("./input.js")
+const userInputs = require("./input.js")
 
 
-
-fs.writeFile("generatedREADME.md", genREADME(userInputs),function(err) {
-    if (err) {
-        return console.log(err);
-    }
-    console.log("Success!")
-})
+init();
 
 
+async function init(){
+    const info = userInputs();
 
-function genREADME(userInputs) {
+    await fs.writeFile("generatedREADME.md", genREADME(info),function(err) {
+       if(err){
+           console.log(err);
+       }
+       console.log("SUCCESS");
+    })
+}
+
+function genREADME(info) {
     return `  
-  # ${userInputs.title}\n
+  # ${info.title}\n
   ## Table of Contents \n
   1.[Description](#description)
   2.[Installation](#installation)
@@ -25,27 +29,29 @@ function genREADME(userInputs) {
   6.[Questions](#questions)\n
 
   ## Description 
-  ${userInputs.desc} \n
-  URL : ${userInputs.URL}\n
+  ${info.desc} \n
+  URL : ${info.URL}\n
 
   ## Installation
-  ${userInputs.installation} \n
+  ${info.installation} \n
 
   ## Usage
-  ${userInputs.usage} \n
+  ${info.usage} \n
 
   ## License
-  ${userInputs.license} \n
+  ${info.license} \n
 
   ## Contributors
-  ${userInputs.contributes} \n
+  ${info.contributes} \n
 
   ## Testing
-  ${userInputs.test} \n
+  ${info.test} \n
   
   ## Questions
-  Questions? Please send contact me @${userInputs.username} or E-mail : sornwilliam@gmail.com\n
+  Questions? Please send contact me @${info.username} or E-mail : sornwilliam@gmail.com\n
   `;
-  }
+  };
+
+  
 
   
