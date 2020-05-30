@@ -10,6 +10,11 @@ function input(){
         },
         {
             type:"input",
+            message:"Enter URL to Project :",
+            name:"URL",
+        },
+        {
+            type:"input",
             message:"Enter Description :",
             name:"desc",
         },
@@ -40,8 +45,8 @@ function input(){
         },
         {
             type:"input",
-            message:"Enter questions :",
-            name:"questions",
+            message:"What's your GitHub Username?",
+            name:"username",
         }
     ])
 };
