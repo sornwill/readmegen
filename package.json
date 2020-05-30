@@ -4,6 +4,7 @@
   "description": "Read-Me",
   "main": "index.js",
   "dependencies": {
+    "inquirer": "^7.1.0",
     "json": "^9.0.6"
   },
   "devDependencies": {},
