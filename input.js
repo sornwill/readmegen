@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 
+// Questions for info for README
 function input(){
     return inquirer.prompt([
         {
@@ -44,3 +45,5 @@ function input(){
         }
     ])
 };
+
+module.exports = input;

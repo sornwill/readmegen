@@ -2,7 +2,7 @@
 let fs = require("fs");
 let userInputs = require("./input.js")
 
-fs.writeFile("README.md", process.argv[2],function(err) {
+fs.writeFile("generatedREADME.md", genREADME(userInputs),function(err) {
     if (err) {
         return console.log(err);
     }
