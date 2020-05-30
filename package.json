@@ -1,0 +1,23 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "Read-Me",
+  "main": "index.js",
+  "dependencies": {
+    "json": "^9.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sornwill/readmegen.git"
+  },
+  "author": "Will Sorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sornwill/readmegen/issues"
+  },
+  "homepage": "https://github.com/sornwill/readmegen#readme"
+}
