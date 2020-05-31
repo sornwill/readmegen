@@ -11,7 +11,7 @@ inquirer.prompt([
         {
             type:"input",
             message:"Enter Title :",
-            name:"title",
+            name:"title",nod
         },
         {
             type:"input",

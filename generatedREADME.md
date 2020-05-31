@@ -1,5 +1,5 @@
   
-      # Hell
+      # README generator
 
       ## Table of Contents 
 
@@ -12,32 +12,32 @@
 
     
       ## Description 
-      hell 
+      A generator for a README for projects 
 
-      URL : hello
+      URL : https://github.com/sornwill/readmegen
 
     
       ## Installation
-      hello 
+      -npm i inquirer, -npm i json 
 
     
       ## Usage
-      hello 
+      general use 
 
     
       ## License
-      hello 
+      MIT 
 
     
       ## Contributors
-      hello 
+      William Sorn 
 
     
       ## Testing
-      hello 
+      n/a 
 
       
       ## Questions
-      Questions? Please send contact me @Sornwill or E-mail : sornwilliam@gmail.com
+      Questions? Please send contact me @sornwill or E-mail : sornwilliam@gmail.com
 
       
