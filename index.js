@@ -6,15 +6,10 @@ const userInputs = require("./input.js")
 init();
 
 
-async function init(){
-    const info = userInputs();
+function init(){
+    writeREADME();
 
-    await fs.writeFile("generatedREADME.md", genREADME(info),function(err) {
-       if(err){
-           console.log(err);
-       }
-       console.log("SUCCESS");
-    })
+   
 }
 
 function genREADME(info) {
@@ -53,5 +48,12 @@ function genREADME(info) {
   };
 
   
-
+function writeREADME(){
+    fs.writeFile("generatedREADME.md", genREADME(info),function(err) {
+        if(err){
+            console.log(err);
+        }
+        console.log("SUCCESS");
+     })
+}
   
