@@ -25,7 +25,7 @@
   URL : https://github.com/sornwill/readmegen
 
   ## Screenshots
-  ![screenies](./assets/img/example.gif)
+  ![screenies](https://gph.is/g/aK5jOBY)
 
   ## Installation
   inquirer, node_modules, json 
