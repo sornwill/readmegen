@@ -54,6 +54,11 @@ inquirer.prompt([
             type:"input",
             message:"Enter Test Info :",
             name:"test",
+        },
+        {
+            type:"input",
+            message:"If you have any screen shots, please enter file name (Make sure to include .png, .jpeg, .gif, etc, at end of input) :",
+            name:"screenshot",
         }
         
     ])
@@ -78,39 +83,52 @@ inquirer.prompt([
 
     function genREADME(info) {
         const licenseBadge = "(https://img.shields.io/badge/license-"+ info.license + "-brightgreen)";
+        const screenies = "(./assets/img/"+ info.screenshot + ")";
+        
 
         return `  
-      # ${info.title}
-      ![licenseBadge]${licenseBadge}
-      ## Table of Contents 
-      1.[Description](#description)
-      2.[Installation](#installation)
-      3.[Usage](#usage)
-      4.[Contributors](#contributors)
-      5.[Testing](#testing)
-      6.[Questions](#questions)
+# ${info.title}
+![licenseBadge]${licenseBadge}
+## Table of Contents 
+1.[Description](#description)
+
+2.[Screenshots](#screenshots)
+
+3.[Installation](#installation)
+
+4.[Usage](#usage)
+
+5.[Contributors](#contributors)
+
+6.[Testing](#testing)
+
+7.[Questions](#questions)
+
     
-      ## Description 
-      ${info.desc} 
-      URL : ${info.URL}
+## Description 
+${info.desc} 
+URL : ${info.URL}
+
+## Screenshots
+![screenshots]${screenies}
     
-      ## Installation
-      ${info.installation} 
+## Installation
+${info.installation} 
     
-      ## Usage
-      ${info.usage} 
+## Usage
+${info.usage} 
     
-      ## License
-      ${info.license} 
+## License
+${info.license} 
     
-      ## Contributors
-      ${info.contributes} 
+## Contributors
+${info.contributes} 
     
-      ## Testing
-      ${info.test} 
+## Testing
+${info.test} 
       
-      ## Questions
-      Questions? Please send contact me @${info.username} or E-mail : sornwilliam@gmail.com
+## Questions
+Questions? Please send contact me @${info.username} or E-mail : sornwilliam@gmail.com
       `;
       };
     

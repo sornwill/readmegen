@@ -1,45 +1,44 @@
   
-      # README Generator
+# example
+![licenseBadge](https://img.shields.io/badge/license-example-brightgreen)
+## Table of Contents 
+1.[Description](#description)
 
-      ![licenseBadge]https://img.shields.io/badge/license-MIT-brightgreen
+2.[Screenshots](#screenshots)
 
-      ## Table of Contents 
+3.[Installation](#installation)
 
-      1.[Description](#description)
-      2.[Installation](#installation)
-      3.[Usage](#usage)
-      4.[Contributors](#contributors)
-      5.[Testing](#testing)
-      6.[Questions](#questions)
+4.[Usage](#usage)
 
-    
-      ## Description 
-      A generator  that creates a README.md  for project repos 
+5.[Contributors](#contributors)
 
-      URL : github.com/sornwill/readmegen
+6.[Testing](#testing)
+
+7.[Questions](#questions)
 
     
-      ## Installation
-      inquirer, node_modules, json 
+## Description 
+example 
+URL : example
 
+## Screenshots
+![screenshots](./assets/img/example.gif)
     
-      ## Usage
-      Use for creating readme.md for project repos 
-
+## Installation
+example 
     
-      ## License
-      MIT 
-
+## Usage
+example 
     
-      ## Contributors
-      Will SOrn 
-
+## License
+example 
     
-      ## Testing
-      n/a 
-
+## Contributors
+example 
+    
+## Testing
+example 
       
-      ## Questions
-      Questions? Please send contact me @sornwill or E-mail : sornwilliam@gmail.com
-
+## Questions
+Questions? Please send contact me @example or E-mail : sornwilliam@gmail.com
       
