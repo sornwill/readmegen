@@ -106,9 +106,7 @@ inquirer.prompt([
 
     
 ## Description 
-${info.desc}
-
-
+${info.desc}\
 URL : ${info.URL}
 
 ## Screenshots
