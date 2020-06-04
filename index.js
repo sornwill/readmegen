@@ -77,40 +77,40 @@ inquirer.prompt([
 
 
     function genREADME(info) {
-        const licenseBadge = "https://img.shields.io/badge/license-"+ info.license + "-brightgreen";
+        const licenseBadge = "(https://img.shields.io/badge/license-"+ info.license + "-brightgreen)";
 
         return `  
-      # ${info.title}\n
-      ![licenseBadge]${licenseBadge}\n
-      ## Table of Contents \n
+      # ${info.title}
+      ![licenseBadge]${licenseBadge}
+      ## Table of Contents 
       1.[Description](#description)
       2.[Installation](#installation)
       3.[Usage](#usage)
       4.[Contributors](#contributors)
       5.[Testing](#testing)
-      6.[Questions](#questions)\n
+      6.[Questions](#questions)
     
       ## Description 
-      ${info.desc} \n
-      URL : ${info.URL}\n
+      ${info.desc} 
+      URL : ${info.URL}
     
       ## Installation
-      ${info.installation} \n
+      ${info.installation} 
     
       ## Usage
-      ${info.usage} \n
+      ${info.usage} 
     
       ## License
-      ${info.license} \n
+      ${info.license} 
     
       ## Contributors
-      ${info.contributes} \n
+      ${info.contributes} 
     
       ## Testing
-      ${info.test} \n
+      ${info.test} 
       
       ## Questions
-      Questions? Please send contact me @${info.username} or E-mail : sornwilliam@gmail.com\n
+      Questions? Please send contact me @${info.username} or E-mail : sornwilliam@gmail.com
       `;
       };
     
