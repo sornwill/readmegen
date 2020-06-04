@@ -1,5 +1,7 @@
   
-      # README generator
+      # README Generator
+
+      ![licenseBadge]https://img.shields.io/badge/license-MIT-brightgreen
 
       ## Table of Contents 
 
@@ -12,17 +14,17 @@
 
     
       ## Description 
-      A generator for a README for projects 
+      A generator  that creates a README.md  for project repos 
 
-      URL : https://github.com/sornwill/readmegen
+      URL : github.com/sornwill/readmegen
 
     
       ## Installation
-      -npm i inquirer, -npm i json 
+      inquirer, node_modules, json 
 
     
       ## Usage
-      general use 
+      Use for creating readme.md for project repos 
 
     
       ## License
@@ -30,7 +32,7 @@
 
     
       ## Contributors
-      William Sorn 
+      Will SOrn 
 
     
       ## Testing

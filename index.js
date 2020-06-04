@@ -3,6 +3,7 @@ let fs = require("fs");
 // let userInputs = require("./input.js")
 const inquirer = require("inquirer");
 
+
  
 
 
@@ -21,7 +22,7 @@ inquirer.prompt([
         },
         {
             type:"input",
-            message:"Enter URL to Project :",
+            message:"Enter URL to Projects :",
             name:"URL",
         },
         {
@@ -43,14 +44,6 @@ inquirer.prompt([
             type:"input",
             message:"Enter License :",
             name:"license",
-            choices: [
-                "MIT",
-                "wtfpl",
-                "afl-3.0",
-                "cc",
-                "unlicense",
-                
-            ]
         },
         {
             type:"input",
@@ -67,7 +60,7 @@ inquirer.prompt([
     .then(function(info){
         console.log(info);
         
-          
+       
         
             fs.writeFile("generatedREADME.md", genREADME(info),function(err) {
                 if(err){
@@ -84,8 +77,11 @@ inquirer.prompt([
 
 
     function genREADME(info) {
+        const licenseBadge = "https://img.shields.io/badge/license-"+ info.license + "-brightgreen";
+
         return `  
       # ${info.title}\n
+      ![licenseBadge]${licenseBadge}\n
       ## Table of Contents \n
       1.[Description](#description)
       2.[Installation](#installation)
