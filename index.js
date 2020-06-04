@@ -90,19 +90,19 @@ inquirer.prompt([
 # ${info.title}
 ![licenseBadge]${licenseBadge}
 ## Table of Contents 
-1.[Description](#description)
+1. [Description](#description)
 
-2.[Screenshots](#screenshots)
+2. [Screenshots](#screenshots)
 
-3.[Installation](#installation)
+3. [Installation](#installation)
 
-4.[Usage](#usage)
+4. [Usage](#usage)
 
-5.[Contributors](#contributors)
+5. [Contributors](#contributors)
 
-6.[Testing](#testing)
+6. [Testing](#testing)
 
-7.[Questions](#questions)
+7. [Questions](#questions)
 
     
 ## Description 
