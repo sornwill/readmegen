@@ -4,12 +4,12 @@
 
   ## Table of Contents 
 
-  1.[Description](#description)
-  1.[Installation](#installation)
-  1.[Usage](#usage)
-  1.[Contributors](#contributors)
-  1.[Testing](#testing)
-  1.[Questions](#questions)
+  [Description](#description)
+  [Installation](#installation)
+  [Usage](#usage)
+  [Contributors](#contributors)
+  [Testing](#testing)
+  [Questions](#questions)
 
 
   ## Description 
