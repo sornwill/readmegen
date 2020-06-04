@@ -1,21 +1,21 @@
 # README Generator
 
-  ![licenseBadge]https://img.shields.io/badge/license-MIT-brightgreen
+  ![licenseBadge](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Table of Contents 
 
   1.[Description](#description)
-  2.[Installation](#installation)
-  3.[Usage](#usage)
-  4.[Contributors](#contributors)
-  5.[Testing](#testing)
-  6.[Questions](#questions)
+  1.[Installation](#installation)
+  1.[Usage](#usage)
+  1.[Contributors](#contributors)
+  1.[Testing](#testing)
+  1.[Questions](#questions)
 
 
   ## Description 
   A generator  that creates a README.md  for project repos 
 
-  URL : github.com/sornwill/readmegen
+  URL : https://github.com/sornwill/readmegen
 
   ## Installation
   inquirer, node_modules, json 
