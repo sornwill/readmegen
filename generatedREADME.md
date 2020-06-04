@@ -1,44 +1,44 @@
   
-# example
-![licenseBadge](https://img.shields.io/badge/license-example-brightgreen)
+# README Generator
+![licenseBadge](https://img.shields.io/badge/license-MIT-brightgreen)
 ## Table of Contents 
-1.[Description](#description)
+1. [Description](#description)
 
-2.[Screenshots](#screenshots)
+2. [Screenshots](#screenshots)
 
-3.[Installation](#installation)
+3. [Installation](#installation)
 
-4.[Usage](#usage)
+4. [Usage](#usage)
 
-5.[Contributors](#contributors)
+5. [Contributors](#contributors)
 
-6.[Testing](#testing)
+6. [Testing](#testing)
 
-7.[Questions](#questions)
+7. [Questions](#questions)
 
     
 ## Description 
-example 
-URL : example
+A generator for README.md displaying info for a project repo 
+URL : https://github.com/sornwill/readmegen
 
 ## Screenshots
 ![screenshots](./assets/img/example.gif)
     
 ## Installation
-example 
+inquirer, json, node_modules 
     
 ## Usage
-example 
+General readme.md info for project repos 
     
 ## License
-example 
+MIT 
     
 ## Contributors
-example 
+Will Sorn 
     
 ## Testing
-example 
+n/a 
       
 ## Questions
-Questions? Please send contact me @example or E-mail : sornwilliam@gmail.com
+Questions? Please send contact me @sornwill or E-mail : sornwilliam@gmail.com
       
