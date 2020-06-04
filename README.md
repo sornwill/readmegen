@@ -43,4 +43,4 @@
   n/a 
 
   ## Questions
-  Questions? Please send contact me @sornwill or E-mail : sornwilliam@gmail.com
+  Questions? Please contact me on GitHub @sornwill or E-mail : sornwilliam@gmail.com
